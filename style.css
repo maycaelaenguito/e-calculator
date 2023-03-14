@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-size: cover;
+    background: url(Colorful\ Animated\ Twitch\ Background\ .gif);
+    overflow: hidden;
+  }
+  section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    font-size: 30px;
+    transition: 1s;
+    color: #fff;
+  }
+  .container {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .display {
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+    font-size: 30px;
+    position: relative;
+    color: white;
+  }
+  .output {
+    opacity: 0.4;
+    font-size: 20px;
+    height: 70px;
+    overflow: hidden;
+  }
+  .result{
+    font-size: 40px;
+  }
+
+  .all_button {
+    color: whitesmoke;
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    background-color: black;
+  }
+  .button {
+    border: 2px solid black;
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 560px;
+    transition: .3s;
+    
+  }
+  .button:hover {
+    background-color: rgb(30, 43, 46);
+  }
+  .btn-0 {
+    grid-column: 1/3;
+  }
+  .action{
+    background-color: #D4D4D4;
+    color: rgb(54, 54, 54);
+  }
+  .action:hover{
+    background-color: #ffffff;
+    color: black;
+  }
+  .operation, .equal{
+    background-color: #FF9500;
+  }
+  .operation:hover{
+    background-color: #ffd69d;
+    color: #FF9500;
+  }
+  .equal:hover{
+    background-color: #ffbf66;
+  }
+  .number {
+    background-color: dimgray;
+  }
+  .number:hover{
+    background-color: rgb(148, 148, 148);
+  }
